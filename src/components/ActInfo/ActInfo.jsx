@@ -25,7 +25,7 @@ const ActInfo = ({ data, filesObj }) => {
                 <h3>Создана заявка №{data.normalId}</h3>
             </div>
             <div className={styles.log}>
-                <h3>Информация по акту:</h3>
+                <h3>Информация по требованиям:</h3>
             </div>
             {Array.isArray(data.fileAct) && data.fileAct.length > 0 && data.fileAct.map((item, i) => {
                 const fileName = item.startsWith('https') ? getFileNameFromUrl(item) : '';

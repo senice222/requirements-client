@@ -1,4 +1,3 @@
-import styles from '../../pages/DetailedApplication/DetailedApplication.module.scss';
 import ActInfo from '../ActInfo/ActInfo';
 import AdditionalInfo from '../AdditionalInfo/AdditionalInfo';
 import ExplanationInfo from '../ExplanationInfo/ExplanationInfo';

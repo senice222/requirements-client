@@ -22,7 +22,7 @@ const ExplanationInfo = ({ data, filesObj }) => {
     return (
         <div className={styles.item}>
             <div className={styles.log}>
-                <h3>Пояснения к акту:</h3>
+                <h3>Пояснения к требованиям:</h3>
             </div>
             {Array.isArray(data.fileExplain) && data.fileExplain.length > 0 && data.fileExplain.map((item, i) => {
                 const fileName = item.startsWith('https') ? getFileNameFromUrl(item) : '';
