@@ -51,8 +51,10 @@ export const ArrowLink = () => {
       height={20}
       viewBox="0 0 20 20"
       fill="none"
+      style={{ fill: "#0070CC" }}
     >
       <path
+        style={{ stroke: "#0070CC" }}
         d="M5.8335 14.1667L14.1668 5.83334M14.1668 5.83334H5.8335M14.1668 5.83334V14.1667"
         stroke="#6941C6"
         strokeWidth="1.66667"
