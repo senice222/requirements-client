@@ -65,7 +65,7 @@ const NavBar = ({ isActive, setActive }) => {
     >
       <div className={`${styles.NavBar} ${isActive ? styles.active2 : ""}`}>
         <div>
-          <h1>Панель актов</h1>
+          <h1>Панель требований</h1>
           <div className={styles.items}>
 
             {admin.access.includes('Заявки') && <NavBarItemOpenAble setActive={setActive} />}
