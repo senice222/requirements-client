@@ -10,7 +10,7 @@ const StatusNotification = ({ data }) => {
       </div>
     );
   }
-  
+
   if (data.status === "Отклонена" || data.status === "Рассмотрена") {
     return (
       <div className={styles.closedDivText}>
